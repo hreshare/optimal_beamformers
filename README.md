@@ -1,11 +1,16 @@
 # optimal_beamformers
-This repository includes systems for exploring peak performance of mask-based beamformers (BFs).
+This repository includes systems for exploring peak performance of the following mask-based beamformers (BFs):
+- Maximum Signal-to-Noise Ratio (Max SNR) BF
+- Minimum Noise-to-Observation Ratio (Min NOR) BF
+- Maximum Signal-to-Observation Ratio (Max SOR) BF
+- Multichannel Wiener filter (MWF) BF
+
 
 Experimental systems are classified as follows:
 1. Obtaining the optimal mask for each utterence
    - For Max SNR, Min NOR, and Max SOR BFs
      - eval_normalized_mask_eigh/
-   - For multichannel Wiener filter (MWF)
+   - For MWF
      - eval_normalized_mask_powm/
 
 2. Applying the optimal mask for a BF method to another
