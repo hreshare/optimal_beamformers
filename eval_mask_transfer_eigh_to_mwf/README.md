@@ -30,9 +30,9 @@ This directory includes the experimental system that applies the optimal mask ob
     ./run.sh --bg_gain 4.0 --mode_from left_min --mode_to right --powm_itr 1
 ```
 
-5. If you desire the results in the tab-separated value format, run the following command;
+5. If you desire the results in the tab-separated value (TSV) format, run the following command;
 ```
-    ./summary.sh
+    ./summary.sh | tee results.tsv
 ```
 
 ## Tips

@@ -1,5 +1,5 @@
 # Mask application across BF methods
-This directory includes the experimental system that applies the optimal mask for each utterance obtained in using the multichannel Wiener filter beamformer (MWF BF) to the following BFs:
+This directory includes the experimental system that applies the optimal mask for each utterance obtained using the multichannel Wiener filter beamformer (MWF BF) to the following BFs:
 
 - Minimum Noise-to-Observation Ratio (Min NOR) BF
 - Maximum Signal-to-Observation Ratio (Max SOR) BF
@@ -30,9 +30,9 @@ This directory includes the experimental system that applies the optimal mask fo
     ./run.sh --mode eig_left_max --bg_gain 4.0
 ```
 
-5. If you desire the results in the tab-separated value format, run the following command;
+5. If you desire the results in the tab-separated value (TSV) format, run the following command;
 ```
-    ./summary.sh
+    ./summary.sh | tee results.tsv
 ```
 
 ## Tips

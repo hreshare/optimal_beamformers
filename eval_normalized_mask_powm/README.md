@@ -1,5 +1,5 @@
 # Mask-based multichannel Wiener filter beamformer
-This directory includes the experimental system that obtains the optimal mask for each utterance in using the mask-based and ideal multichannel Wiener filter beamformers (MWF BFs).
+This directory includes the experimental system that obtains the optimal mask for each utterance using the mask-based and ideal multichannel Wiener filter beamformers (MWF BFs).
 
 ## How to use
 1. To make some symbolic links, run the following command just once:
@@ -21,9 +21,9 @@ This directory includes the experimental system that obtains the optimal mask fo
     ./run.sh --mode ideal  --powm_itr 1  --bg_gain 4.0
 ```
 
-4. If you desire the results in the tab-separated value format, run the following command;
+4. If you desire the results in the tab-separated value (TSV) format, run the following command;
 ```
-    ./summary.sh
+    ./summary.sh | tee results.tsv
 ```
 
 ## Tips

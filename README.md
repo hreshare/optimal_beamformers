@@ -27,14 +27,14 @@ These systems use the CHiME 4 dataset and depend on its baseline system for this
 
 1. Obtain the CHiME 4 dataset. See https://spandh.dcs.shef.ac.uk/chime_challenge/chime2016/index.html .
 2. Set up the Kaldi Speech Recognition Toolkit. See https://github.com/kaldi-asr/kaldi .
-3. In this toolkit, go to kaldi/egs/chime4/s5_6ch/ and conduct the baseline system there.
+3. In that toolkit, go to kaldi/egs/chime4/s5_6ch/ and conduct the experiments using the baseline system.
 
 After that, do following steps:
 
-4. Copy the following file directories to kaldi/egs/chime4/:
+4. Copy the following directories to kaldi/egs/chime4/:
    - eval_normalized_mask_eigh/
    - eval_normalized_mask_powm/
    - eval_mask_transfer/
    - eval_mask_transfer_eigh_to_eigh/
    - eval_mask_transfer_eigh_to_mwf/
-5. Go to each directory to conduct the experiment.
+5. Go to each directory to conduct the experiment there.

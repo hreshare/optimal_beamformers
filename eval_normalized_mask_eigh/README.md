@@ -34,9 +34,9 @@ This directory includes the experimental system that obtains the optimal mask fo
     ./run.sh --mode left_max  --bg_gain 4.0
 ```
 
-5. If you desire the results in the tab-separated value format, run the following command;
+5. If you desire the results in the tab-separated value (TSV) format, run the following command;
 ```
-    ./summary.sh
+    ./summary.sh | tee results.tsv
 ```
 
 ## Tips
